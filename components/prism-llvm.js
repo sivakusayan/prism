@@ -1,5 +1,6 @@
 (function (Prism) {
 	Prism.languages.llvm = {
+		'function': /[@^][^\.\(]+/,
 		'comment': /;.*/,
 		'string': {
 			pattern: /"[^"]*"/,
